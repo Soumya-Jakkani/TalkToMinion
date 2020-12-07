@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    background-image: url("/TranslaterApp/Minion.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+:root{
+
+    --color-yellow: #FCD34D;
+    --light: #FDE68A;
+}
+
+
+.navigation{
+    background-color: var( --color-yellow);
+    border-bottom-left-radius: 3rem;
+    height: 10vh;
+    border-top-right-radius: 3rem;
+    margin: 1rem;
+}
+.nav-name{
+    padding: 1rem;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text{
+    padding: 0.5rem;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: var(--color-yellow);
+}
+#input{
+    padding: 1rem;
+    display: block;
+    /* margin: 1rem; */
+    width: 50%;
+    height: 15vh;
+    margin: auto;
+    border: 1px solid black;
+    background-color: var(--light);
+ }
+
+ .btn{
+     text-align: center;
+ }
+#btn-translator{
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--color-yellow);
+    padding: 0.5rem 1rem ;
+    margin-top: 1rem;
+    
+}
+
+ #output{
+     border: 1px solid black;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 15vh;
+    background-color: var(--light);
+   
+ }
+
+
+footer{
+    margin-top: 2rem;
+    background-color: var(--color-yellow);
+    border-bottom-right-radius: 3rem;
+    height: 25vh;
+    border-top-left-radius: 3rem;
+}
+
+.name1{
+    padding: 0.5rem;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.name2{
+    padding: 0.60rem;
+    margin:auto;
+    text-align: center;
+    font-size: small;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+  
